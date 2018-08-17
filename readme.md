@@ -1,4 +1,4 @@
-#  fast-transform
+#  writable-input-transform
 
 Transform the input on writable objects such 
 as Node write streams and [sonic-boom](http://npm.im/sonic-boom) instances.
