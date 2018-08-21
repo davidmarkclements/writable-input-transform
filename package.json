@@ -1,7 +1,7 @@
 {
   "name": "writable-input-transform",
   "version": "1.0.1",
-  "description": "",
+  "description": "Transform the input on writable objects such  as Node write streams and [sonic-boom](http://npm.im/sonic-boom) instances.",
   "main": "index.js",
   "devDependencies": {
     "fastbench": "^1.0.1",
@@ -13,5 +13,19 @@
   },
   "keywords": [],
   "author": "David Mark Clements",
-  "license": "MIT"
+  "license": "MIT",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "pino": "^5.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidmarkclements/writable-input-transform.git"
+  },
+  "bugs": {
+    "url": "https://github.com/davidmarkclements/writable-input-transform/issues"
+  },
+  "homepage": "https://github.com/davidmarkclements/writable-input-transform#readme"
 }
